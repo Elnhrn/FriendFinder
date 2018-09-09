@@ -15,12 +15,12 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 // setting up the current folder to public
-app.use(express.static("public"));
+app.use(express.static("app/public"));
 
 // router
 // routes give our server a "map" of how to respond when users visit or request data from various URLstj
-require("./routing/apiRoutes")(app);
-require("./routing/htmlRoutes")(app);
+require("./app/routing/apiRoutes")(app);
+require("./app/routing/htmlRoutes")(app);
 
 // listener
 // "starts" the server
