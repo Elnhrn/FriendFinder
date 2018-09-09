@@ -4,7 +4,7 @@
 
  ## Demo
 
- FriendFinder is deployed on Heroku [here]().
+ FriendFinder is deployed on Heroku [here](https://sheltered-tundra-17155.herokuapp.com/).
 
 ## Installation
 To install the application follow the instructions below:
